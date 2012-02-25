@@ -1,0 +1,26 @@
+Identifier = "RangeFinder"
+
+Version = "VERSION"
+
+Email = "seebs@seebs.net"
+
+Dependencies = { LibGetOpt = { "required", "before" } }
+Embed = { LibGetOpt = true }
+
+Name = {
+  English = "RangeFinder",
+  French = "RangeFinder",
+  German = "RangeFinder",
+}
+NameShort = "RangeFinder"
+
+Description = {
+  English = "A rangefinder on the target frame."
+}
+
+RunOnStartup = {
+  "RangeFinder.lua"
+}
+
+Environment = { "1.7" }
+
